@@ -11,8 +11,10 @@ class Dog():
 
     def age(self):
         print(self.name.title() + "age is" + str(self.age))
-tommy=Dog('tommy',5)
-rover=Dog('rover',10)
+
+
+tommy = Dog('tommy', 5)
+rover = Dog('rover', 10)
 print("My dog's name is " + tommy.name.title() + ".")
 print("My dog's age is " + str(tommy.age) + ".")
 rover.sit()
