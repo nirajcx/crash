@@ -9,8 +9,8 @@ class Dog():
     def roll(self):
         print(self.name.title() + " is roling")
 
-    def age(self):
-        print(self.name.title() + "age is" + str(self.age))
+    def ages(self):
+        print(self.name.title() + "'s age is " + str(self.age))
 
 
 tommy = Dog('tommy', 5)
@@ -19,3 +19,4 @@ print("My dog's name is " + tommy.name.title() + ".")
 print("My dog's age is " + str(tommy.age) + ".")
 rover.sit()
 rover.roll()
+tommy.ages()
