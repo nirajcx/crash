@@ -1,13 +1,9 @@
-from fnmatch import fnmatchcase
-import profile
-
-
 def arbi(*ins):
     for a in ins:
         print('adding the ' + str(a))
 
 
-print("enter tge args")
+print("enter the args")
 arbi('apple', 'grapes', 'banana', 'berries')
 
 
