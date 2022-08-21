@@ -12,9 +12,9 @@ int main()
     float pi = 3.14;
     squar(side);
     printf("The Area of the squar is : %d\n", squar(side));
-    circle(radius,pi);
+    circle(radius, pi);
     printf("The area of the circle is :%f\n", circle(radius, pi));
-    rectangle(l,b);
+    rectangle(l, b);
     printf("The area of the recangle is :%d\n", rectangle(l, b));
 
     return 0;
