@@ -1,6 +1,3 @@
-from tkinter import W
-
-
 with open('programming.txt', 'a') as file_name:
     while True:
         a = input('Enter the name or press q to exit:- ')
