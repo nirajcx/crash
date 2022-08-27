@@ -10,11 +10,12 @@ int main()
     {
         for (int i = 0; i <= k; i++)
         {
-            printf("\n");
+        
             for (int j = 0; j < i; j++)
             {
                 printf("*");
             }
+            printf("\n");
         }
     }
     else if (l == 1)
